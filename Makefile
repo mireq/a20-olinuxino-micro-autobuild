@@ -38,6 +38,7 @@ buildroot-a20-olinuxino:
 	touch .configured_buildroot
 
 .installed_buildroot_stage1: buildroot-a20-olinuxino .configured_buildroot
+	mkdir -p buildroot-a20-olinuxino/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/qt/plugins/accessible
 	make -C buildroot-a20-olinuxino a20_olinuxino_crossng_defconfig
 	make -C buildroot-a20-olinuxino
 	touch .installed_buildroot_stage1
