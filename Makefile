@@ -2,7 +2,7 @@
 
 PATH := $(PATH):$(shell pwd)/crosstool/bin
 
-CROSSTOOL=crosstool-ng-1.20.0
+CROSSTOOL=crosstool-ng-1.22.0
 
 all: buildroot
 
@@ -12,6 +12,7 @@ all: buildroot
 
 .extracted_ct_ng: .downloaded_ct_ng
 	tar -xvjf ${CROSSTOOL}.tar.bz2
+	mv crosstool-ng ${CROSSTOOL}
 	touch .extracted_ct_ng
 
 .installed_ct_ng: .extracted_ct_ng
