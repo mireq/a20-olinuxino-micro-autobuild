@@ -491,50 +491,7 @@ CT_DUMA_A=y
 CT_DUMA_SO=y
 CT_DUMA_V_2_5_15=y
 CT_DUMA_VERSION="2_5_15"
-CT_DEBUG_gdb=y
-# CT_GDB_CROSS is not set
-CT_GDB_NATIVE=y
-CT_GDB_NATIVE_STATIC=y
-CT_GDB_GDBSERVER=y
-CT_GDB_GDBSERVER_HAS_IPA_LIB=y
-CT_GDB_GDBSERVER_STATIC=y
-
-#
-# gdb version
-#
-CT_DEBUG_GDB_SHOW_LINARO=y
-CT_GDB_V_7_10=y
-# CT_GDB_V_7_9_1 is not set
-# CT_GDB_V_7_9 is not set
-# CT_GDB_V_linaro_7_8 is not set
-# CT_GDB_V_7_8_2 is not set
-# CT_GDB_V_7_8_1 is not set
-# CT_GDB_V_7_8 is not set
-# CT_GDB_V_7_7_1 is not set
-# CT_GDB_V_7_7 is not set
-# CT_GDB_V_linaro_7_6 is not set
-# CT_GDB_V_7_6_1 is not set
-# CT_GDB_V_linaro_7_5 is not set
-# CT_GDB_V_7_5_1 is not set
-# CT_GDB_V_linaro_7_4 is not set
-# CT_GDB_V_7_4_1 is not set
-# CT_GDB_V_7_4 is not set
-# CT_GDB_V_linaro_7_3 is not set
-# CT_GDB_V_7_3_1 is not set
-# CT_GDB_V_7_3a is not set
-# CT_GDB_V_linaro_7_2 is not set
-# CT_GDB_V_7_2a is not set
-# CT_GDB_V_7_1a is not set
-# CT_GDB_V_7_0_1a is not set
-# CT_GDB_V_7_0a is not set
-# CT_GDB_V_6_8a is not set
-# CT_GDB_CUSTOM is not set
-CT_GDB_7_2_or_later=y
-CT_GDB_7_0_or_later=y
-CT_GDB_HAS_PKGVERSION_BUGURL=y
-CT_GDB_HAS_PYTHON=y
-CT_GDB_INSTALL_GDBINIT=y
-CT_GDB_VERSION="7.10"
+# CT_DEBUG_gdb is not set
 CT_DEBUG_ltrace=y
 # CT_LTRACE_V_0_7_3 is not set
 CT_LTRACE_V_0_5_3=y
@@ -570,8 +527,6 @@ CT_MPFR=y
 CT_ISL=y
 CT_MPC=y
 CT_LIBELF_TARGET=y
-CT_EXPAT_TARGET=y
-CT_NCURSES_TARGET=y
 CT_LIBICONV_V_1_14=y
 CT_LIBICONV_VERSION="1.14"
 CT_GETTEXT_V_0_19_6=y
@@ -616,18 +571,6 @@ CT_MPC_VERSION="1.0.1"
 CT_LIBELF_V_0_8_13=y
 # CT_LIBELF_V_0_8_12 is not set
 CT_LIBELF_VERSION="0.8.13"
-
-#
-# expat version needed to build for target
-#
-CT_EXPAT_V_2_1_0=y
-CT_EXPAT_VERSION="2.1.0"
-
-#
-# ncurses version needed to build for target
-#
-CT_NCURSES_V_6_0=y
-CT_NCURSES_VERSION="6.0"
 
 #
 # Companion libraries common options
